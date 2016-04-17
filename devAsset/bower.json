@@ -1,0 +1,28 @@
+{
+  "name": "myHomeBox",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.1",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3",
+    "material-shadows": "^2.0.2",
+    "material-design-color-palette": "^1.1.0"
+  },
+  "overrides": {
+    "main": [
+      "./dist/js/bootstrap.js",
+      "./dist/css/*.min.*",
+      ".dist/fonts/*.*"
+    ]
+  }
+}
