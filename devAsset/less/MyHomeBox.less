@@ -7,13 +7,24 @@
 * Material design import 
 */
 @import '../bower_components/material-shadows/material-shadows';
-@import '../bower_components/material-design-color-palette/less/variables';
-@import '../bower_components/material-design-color-palette/less/mixins';
+@import '../bower_components/material-design-color-palette/less/material-design-color-palette';
+@import '../bower_components/material-design-iconic-font/less/material-design-iconic-font';
 
+/*
+*@import '../bower_components/material-design-color-palette/less/variables';
+*@import '../bower_components/material-design-color-palette/less/mixins';
+*/
 
-
+@import '../bower_components/bootstrap-select/less/bootstrap-select';
 
 /*
 * my less file
 */
-@import './header';
+@import './include/mixin';
+@import './include/variables'; 
+
+@import './include/base';
+@import './include/fonts';
+@import './include/header';
+@import './include/footer';
+@import './include/card';

@@ -16,7 +16,9 @@
     "bootstrap": "^3.3.6",
     "jquery": "^2.2.3",
     "material-shadows": "^2.0.2",
-    "material-design-color-palette": "^1.1.0"
+    "material-design-color-palette": "^1.1.0",
+    "bootstrap-select": "^1.10.0",
+    "material-design-iconic-font":"^2.2.0"
   },
   "overrides": {
     "main": [

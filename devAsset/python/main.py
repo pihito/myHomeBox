@@ -13,7 +13,7 @@ manager = Manager(app)
 #et la lie à la fonction index
 @app.route("/")
 def index():
-    return "ceci est la page index"
+    return render_template('index.html')
 
 #on crée la nouvelle route et on la lie à fonction Hello
 @app.route('/hello/')
